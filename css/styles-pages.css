@@ -1,0 +1,154 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* my style */
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    background-color: #f7f7f7;
+
+}
+
+.container {
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px rgba(187, 180, 180);
+}
+
+.main-title {
+    font-size: 50px;
+    margin: 20px 20px;
+    color:rgb(119, 58, 216);
+    font-weight: 500;
+}
+.subtitle {
+    font-size: 28px;
+    margin: 20px 20px;
+    color:rgb(119, 58, 216);
+    font-weight: 300;
+}
+.img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+.description {
+    font-size: 20px; 
+    line-height: 40px;
+    font-weight: 700; 
+    text-align: center;
+    color: rgb(59, 10, 80);
+}
+
+.list {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    width: 100%;
+}
+
+.list li {
+    flex: 1;
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgb(212, 193, 230);
+    color: rgb(170, 7, 175);
+    font-size: 28px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 7px;
+    transition: background-color 0.3s ease;
+    margin: 10px 0;
+}
+
+.button:hover {
+    text-decoration:dotted ;
+    outline: dotted rgb(158, 13, 98);
+    background-color: rgb(41, 1, 41);
+}
+
+.footer-paragraph {
+    font-size: 28px;
+    margin: 20px 20px;
+    color:rgb(119, 58, 216);
+    font-weight: 300;
+}
+
+.footer-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgb(212, 193, 230);
+    color: rgb(170, 7, 175);
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 7px;
+    transition: background-color 0.3s ease;
+    margin: 10px 0;
+}
+.footer-link:hover {
+    text-decoration:dotted ;
+    outline: dotted rgb(158, 13, 98);
+    background-color: rgb(226, 218, 226);
+}
